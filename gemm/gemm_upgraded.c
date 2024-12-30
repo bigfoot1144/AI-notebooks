@@ -6,7 +6,7 @@
 #include "math.h"
 
 #define N 2048
-#define BLOCK 8
+#define BLOCK 32
 
 float A[N*N] __attribute__ ((aligned(32)));
 float B[N*N] __attribute__ ((aligned(32)));
