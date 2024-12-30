@@ -5,7 +5,7 @@ import os
 os.environ['OMP_NUM_THREADS'] = '1'
 import numpy as np
 
-N = 1024
+N = 2048
 
 if __name__ == "__main__":
     # N^2
