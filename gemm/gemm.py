@@ -1,5 +1,8 @@
 #baseline
 import time
+#numpy is cheating and is using multiple threads
+import os
+os.environ['OMP_NUM_THREADS'] = '1'
 import numpy as np
 
 N = 1024
