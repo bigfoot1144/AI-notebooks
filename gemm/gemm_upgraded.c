@@ -61,7 +61,7 @@ int main()
 
     double gflop = (2.0*N*N*N)*1e-9;
     double s = (end - start)*1e-9;
-    printf("tflops %f\r\n", gflop/s);
+    printf("gflops %f\r\n", gflop/s);
     
     for(int y = 0; y < N; ++y){
         for(int x = 0; x < N; ++x){
