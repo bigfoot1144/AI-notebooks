@@ -2,7 +2,7 @@
 import time
 import numpy as np
 
-N = 4096
+N = 1024
 
 if __name__ == "__main__":
     # N^2
@@ -18,5 +18,9 @@ if __name__ == "__main__":
     et = time.monotonic()
     s = et-st
 
+    with open("./GEMM_OUT", "wb") as f:
+        f.write(A)
+        f.write(B)
+        f.write(C)
+
     print(f"{flop/s * 1e-9} GFLOPS")
-    
