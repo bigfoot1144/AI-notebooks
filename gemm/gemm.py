@@ -14,7 +14,7 @@ if __name__ == "__main__":
     print(f"{flop/ 1e9} GFLOP")
     
     st = time.monotonic()
-    C = A @ B
+    C = A @ B.T
     et = time.monotonic()
     s = et-st
 
