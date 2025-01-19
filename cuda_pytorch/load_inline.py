@@ -46,5 +46,3 @@ square_matrix_extension = load_inline(
 
 a = torch.tensor([[1., 2., 3.], [4., 5., 6.]], device='cuda')
 print(square_matrix_extension.square_matrix(a))
-
-print("TEST COMMIT")
