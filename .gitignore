@@ -1,5 +1,5 @@
-load_inline_cuda/.*
-load_inline_cuda/*.ninja
-load_inline_cuda/*.o
-load_inline_cuda/*.cu
-load_inline_cuda/*.so
+cuda_pytorch/load_inline_cuda/.*
+cuda_pytorch/load_inline_cuda/*.ninja
+cuda_pytorch/load_inline_cuda/*.o
+cuda_pytorch/load_inline_cuda/*.cu
+cuda_pytorch/load_inline_cuda/*.so
