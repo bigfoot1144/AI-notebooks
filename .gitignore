@@ -1,0 +1,5 @@
+load_inline_cuda/.*
+load_inline_cuda/*.ninja
+load_inline_cuda/*.o
+load_inline_cuda/*.cu
+load_inline_cuda/*.so
